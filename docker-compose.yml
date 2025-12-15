@@ -1,0 +1,11 @@
+version: "3.5"
+services:
+  chatgptbot:
+    container_name: chatgptbot
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - ./user_configs:/app/user_configs
+    ports:
+      - 80:8080

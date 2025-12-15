@@ -1,0 +1,12 @@
+version: &#39;3.8&#39;
+
+services:
+  telegram-bot:
+    image: yym68686/chatgpt:latest
+    ports:
+      - &quot;8080:8080&quot;
+    env_file:
+      - .env
+    restart: unless-stopped
+    volumes:
+      - ./logs:/app/logs  # если логи поддерживаются
