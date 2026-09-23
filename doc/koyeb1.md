@@ -20,9 +20,9 @@
 5. ✅ Добавление переменных окружения
 Добавлены все 10 переменных из инструкции:
 
-BOT_TOKEN: 7775815478:AAH3NK99X4VMJCTo5KYcTw9LBeBa0wYqwE
+BOT_TOKEN: ВАШ_ТОКЕН_ИЗ_BOTFATHER
 
-API: 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
+API: ВАШ_КЛЮЧ_OPENROUTER
 
 BASEURL: https://openrouter.ai/api/v1
 
@@ -63,7 +63,7 @@ Public URL: https://influential-talya-fg12-2f27524f.koyeb.app/
 Сервис развёрнут, но находится в состоянии ошибки из-за недействительного BOT_TOKEN. В логах видна ошибка:
 
 text
-telegram.error.InvalidToken: The token `7775815478:AAH3NK99X4VMJCTo5KYcTw9LBeBa0wYqwE` was rejected by the server
+telegram.error.InvalidToken: The token `ВАШ_ТОКЕН_ИЗ_BOTFATHER` was rejected by the server
 Что нужно для запуска:
 Получить настоящий BOT_TOKEN от @BotFather в Telegram
 

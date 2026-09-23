@@ -40,8 +40,8 @@ Washington, D.C. (was)
 Добавьте следующие переменные:
 
 ```bash
-BOT_TOKEN=7775815478:AAH3NK99X4VMJCTo5KYcTw9LBeBa0w_YqwE
-API=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
+BOT_TOKEN=ВАШ_ТОКЕН_ИЗ_BOTFATHER
+API=ВАШ_КЛЮЧ_OPENROUTER
 BASE_URL=https://openrouter.ai/api/v1
 MODEL=amazon/nova-2-lite-v1:free
 CUSTOM_MODELS=-all;Free:amazon/nova-2-lite-v1:free,tngtech/tng-r1t-chimera:free,z-ai/glm-4.5-air:free,kwaipilot/kat-coder-pro:free
@@ -148,9 +148,9 @@ services:
         protocol: http
     env:
       - key: BOT_TOKEN
-        value: "7775815478:AAH3NK99X4VMJCTo5KYcTw9LBeBa0w_YqwE"
+        value: "ВАШ_ТОКЕН_ИЗ_BOTFATHER"
       - key: API
-        value: "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"
+        value: "ВАШ_КЛЮЧ_OPENROUTER"
       - key: BASE_URL
         value: "https://openrouter.ai/api/v1"
       - key: MODEL

@@ -117,7 +117,7 @@ telegram-ai-support/
 
 ```bash
 # Telegram
-BOT_TOKEN=7775815478:AAH3NK99X4VMJCTo5KYcTw9LBeBa0w_YqwE
+BOT_TOKEN=ВАШ_ТОКЕН_ИЗ_BOTFATHER
 
 # OpenRouter API
 BASE_URL=https://openrouter.ai/api/v1
